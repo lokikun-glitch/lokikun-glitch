@@ -1,0 +1,81 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#0f1420"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+
+    <linearGradient id="textGrad" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8A2BE2">
+        <animate attributeName="stop-color"
+          values="#8A2BE2; #00BFFF; #00E5A0; #8A2BE2"
+          dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#00BFFF">
+        <animate attributeName="stop-color"
+          values="#00BFFF; #00E5A0; #8A2BE2; #00BFFF"
+          dur="8s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00E5A0">
+        <animate attributeName="stop-color"
+          values="#00E5A0; #8A2BE2; #00BFFF; #00E5A0"
+          dur="8s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <radialGradient id="blobA" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8A2BE2" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8A2BE2" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobB" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00BFFF" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#00BFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="blobC" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E5A0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#00E5A0" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="blur1" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+
+    <clipPath id="roundedFrame">
+      <rect x="1" y="1" width="1198" height="318" rx="22"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedFrame)">
+    <rect width="1200" height="320" fill="url(#bgGrad)"/>
+
+    <circle cx="150" cy="60" r="150" fill="url(#blobA)" filter="url(#blur1)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 60 20; 0 0" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1050" cy="260" r="170" fill="url(#blobB)" filter="url(#blur1)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -50 -30; 0 0" dur="12s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="40" r="120" fill="url(#blobC)" filter="url(#blur1)">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -30 40; 0 0" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <rect x="1" y="1" width="1198" height="318" rx="22" fill="none" stroke="#21262d" stroke-width="1.5"/>
+
+    <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="800" fill="url(#textGrad)">
+      Lokesh Parate
+    </text>
+
+    <text x="600" y="196" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="24" font-weight="500" fill="#c9d1d9" letter-spacing="0.5">
+      AI Engineer · Full Stack Developer · Machine Learning Enthusiast
+    </text>
+
+    <line x1="500" y1="228" x2="700" y2="228" stroke="url(#textGrad)" stroke-width="3" stroke-linecap="round"/>
+
+    <text x="600" y="266" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif" font-size="16" fill="#8b949e">
+      Building intelligent, scalable, real-world software
+    </text>
+  </g>
+</svg>
