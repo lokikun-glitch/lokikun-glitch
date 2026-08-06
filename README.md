@@ -181,13 +181,12 @@ End-to-end web applications built with modern JavaScript frameworks, RESTful bac
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=lokikun-glitch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="49%" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details.svg?username=lokikun-glitch&theme=github_dark" alt="Profile Summary" width="49%" />
+<img src="https://github-stats-extended.vercel.app/api?username=lokikun-glitch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" width="80%" />
 
 <br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=lokikun-glitch&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lokikun-glitch&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="49%" />
+<img src="https://github-stats-extended.vercel.app/api/top-langs/?username=lokikun-glitch&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" width="49%" />
 
 </div>
 
@@ -214,7 +213,8 @@ End-to-end web applications built with modern JavaScript frameworks, RESTful bac
 ### 🏆 GitHub Trophies
 
 <div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=lokikun-glitch&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub Trophies" />
+<!-- Trophies are temporarily disabled due to API limits (402 Payment Required) -->
+<!-- <img src="https://github-profile-trophy.vercel.app/?username=lokikun-glitch&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" alt="GitHub Trophies" /> -->
 </div>
 
 <img src="assets/divider.svg" width="100%" alt="" />
